@@ -5,11 +5,13 @@
  */
 package models;
 
+import java.io.Serializable;
+
 /**
  *
  * @author cocog
  */
-public class Note 
+public class Note implements Serializable
 {
     private String title;
     private String contents;
